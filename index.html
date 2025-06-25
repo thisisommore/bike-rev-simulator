@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rev Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bike Rev Simulator</h1>
+    <div class="dashboard">
+        <div>RPM: <span id="rpm">1000</span></div>
+        <div>Speed: <span id="speed">0</span> km/h</div>
+        <div>Gear: <span id="gear">1</span></div>
+    </div>
+    <div class="controls">
+        <label for="throttle">Throttle</label>
+        <input type="range" id="throttle" min="0" max="100" value="0" orient="vertical">
+        <div class="gear-buttons">
+            <button id="gear-down">Gear -</button>
+            <button id="gear-up">Gear +</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
