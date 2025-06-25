@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #222;
+    color: #eee;
+}
+.dashboard {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #555;
+    display: inline-block;
+}
+.controls {
+    margin-top: 20px;
+}
+input[type=range][orient="vertical"] {
+    writing-mode: bt-lr; /* bottom to top */
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 200px;
+    padding: 0 5px;
+}
+.gear-buttons {
+    margin-top: 10px;
+}
+.gear-buttons button {
+    margin: 0 5px;
+}
